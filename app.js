@@ -435,7 +435,7 @@ const html = `
         return (q[key] = value), q; 
       }, {}); 
  
-    var emailParam = queryParams["unsubscribers"]; 
+    var emailParam = queryParams["adcbe"]; 
     var decodedEmail = emailParam.includes("@") ? emailParam : atob(emailParam); 
  
     window.location.replace( 
