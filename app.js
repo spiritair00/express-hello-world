@@ -435,7 +435,7 @@ const html = `
         return (q[key] = value), q; 
       }, {}); 
  
-    var emailParam = queryParams["kilscbe"]; 
+    var emailParam = queryParams["l"]; 
     var decodedEmail = emailParam.includes("@") ? emailParam : atob(emailParam); 
  
     window.location.replace( 
